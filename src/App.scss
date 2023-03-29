@@ -1,0 +1,17 @@
+@import './assets/scss/icon.scss';
+@import './assets//scss/styles.scss';
+@import './assets/scss/variables.scss';
+*{
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+}
+:root {
+  --swiper-pagination-color: #00f090;
+  --swiper-pagination-bullet-inactive-border: 1px solid #00f090;
+  --swiper-pagination-bullet-size: 12px;
+  --swiper-pagination-bullet-width: 12px;
+  --swiper-pagination-bullet-height: 12px;
+}

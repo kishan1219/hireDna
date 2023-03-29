@@ -1,0 +1,64 @@
+@import "./styles.scss";
+
+@mixin sm {
+  @media (max-width: #{$screen-sm}) {
+    @content;
+  }
+}
+@mixin msm {
+  @media (max-width: #{$screen-msm}) {
+    @content;
+  }
+}
+@mixin mo {
+  @media (max-width: #{$screen-mo}) {
+    @content;
+  }
+}
+@mixin iPad {
+  @media (max-width: #{$screen-iPad}) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (max-width: #{$screen-tab}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin xlmd {
+  @media (max-width: #{$screen-xlmd}) {
+    @content;
+  }
+}
+
+@mixin blg {
+  @media (max-width: #{$screen-blg}) {
+    @content;
+  }
+}
+
+@mixin bxlg {
+  @media (max-width: #{$screen-bxlg}) {
+    @content;
+  }
+}
+
+@mixin xsm {
+  @media (max-width: #{$screen-xsm}) {
+    @content;
+  }
+}
+
+@mixin xxsm {
+  @media (max-width: #{$screen-xxsm}) {
+    @content;
+  }
+}

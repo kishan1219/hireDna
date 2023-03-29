@@ -1,0 +1,363 @@
+{
+  "testimonialData": [
+    {
+      "id": 1,
+      "profile": "assets/images/testimonialProfille.png",
+      "heading": "“The Wrong Hire is Detrimental”",
+      "content": "Finding the right individual is time-consuming and marketing the wrong hire can be detrimental. Since our inception, we’ve relied on Hire DNA to understand our needs and match us with high quality candidates.",
+      "name": "— Mario Carcass,",
+      "details": " THINK NOW, CO-FOUNDER"
+    },
+    {
+      "id": 2,
+      "profile": "assets/images/testimonialProfille.png",
+      "heading": "“The Wrong Hire is Detrimental”",
+      "content": "Finding the right individual is time-consuming and marketing the wrong hire can be detrimental. Since our inception, we’ve relied on Hire DNA to understand our needs and match us with high quality candidates.",
+      "name": "— Mario Carcass,",
+      "details": " THINK NOW, CO-FOUNDER"
+    },
+    {
+      "id": 3,
+      "profile": "assets/images/testimonialProfille.png",
+      "heading": "“The Wrong Hire is Detrimental”",
+      "content": "Finding the right individual is time-consuming and marketing the wrong hire can be detrimental. Since our inception, we’ve relied on Hire DNA to understand our needs and match us with high quality candidates.",
+      "name": "— Mario Carcass,",
+      "details": " THINK NOW, CO-FOUNDER"
+    },
+    {
+      "id": 4,
+      "profile": "assets/images/testimonialProfille.png",
+      "heading": "“The Wrong Hire is Detrimental”",
+      "content": "Finding the right individual is time-consuming and marketing the wrong hire can be detrimental. Since our inception, we’ve relied on Hire DNA to understand our needs and match us with high quality candidates.",
+      "name": "— Mario Carcass,",
+      "details": "THINK NOW, CO-FOUNDER"
+    }
+  ],
+  "salesTimeData": [
+    {
+      "id": 1,
+      "salesHeading": "Recruiting Automation",
+      "salesContent": "We manage the entire SaaS sales recruitment life cycle for talent teams and hiring managers. From defining your ideal candidate to sourcing, screening, and scheduling, we’ll handle the heavy lifting so you can focus on hiring the best talent.",
+      "salesMoreDetailText": "How we Recruit"
+    },
+    {
+      "id": 2,
+      "salesHeading": "Role & Culture Matching",
+      "salesContent": "Our matching algorithm analyzes 26 data points including compensation, deal size, sales cycle, SaaS products, team environment, quota attainment, sales process, and work style to ensure candidates fit your role and culture and have the right experience and skills to perform at a high level.",
+      "salesMoreDetailText": "SEE THE DATA"
+    },
+    {
+      "id": 3,
+      "salesHeading": "Sales Skills Assessment",
+      "salesContent": "Leveraging 30 years of data from more than 2 million salespeople we predict which candidates are more likely to succeed. We evaluate 21 selling competencies to provide objective insights into each candidate’s selling skills, capabilities, and sales DNA. We’ll determine if the candidate is motivated, has grit, and if they’re coachable.",
+      "salesMoreDetailText": "SEE THE SCIENCE"
+    },
+    {
+      "id": 4,
+      "salesHeading": "Candidate Experience",
+      "salesContent": "It’s our passion to provide the best candidate experience while professionally representing your brand. HireDNA is designed to match candidates with career opportunities that fit their ideal role, team culture, and work style while keeping them informed and engaged through every step of the hiring process.",
+      "salesMoreDetailText": "Our Approach"
+    }
+  ],
+  "saveTimeMoneyData": [
+    {
+      "id": 1,
+      "logo": "assets/images/salesCalendar.png",
+      "saveTimeMoneyHeading": "Faster hiring in 24 days",
+      "saveTimeMoneyContent": "With access to hundreds of thousands of SaaS sales professionals in the US and a platform to automate candidate screening and matching, we can deliver qualified candidates in as little as 3 days. The average position takes just 24 days to fill, almost half the industry average."
+    },
+    {
+      "id": 2,
+      "logo": "assets/images/salesHires.png",
+      "saveTimeMoneyHeading": "Avoid the wrong hires",
+      "saveTimeMoneyContent": "Why waste time and money with the wrong hires? Our data-driven candidate matching will help to eliminate 96% of hiring mistakes and has been 3rd party validated as 95% accurate across 2 million salespeople."
+    },
+    {
+      "id": 3,
+      "logo": "assets/images/salesReach.png",
+      "saveTimeMoneyHeading": "Reach sales quotas faster",
+      "saveTimeMoneyContent": "Your bottom line depends on top performers, which is why our matching technology and sales skills assessment is designed to weed out low performers. 92% of our recommended hires reach the top half of the sales force in 1 year."
+    },
+    {
+      "id": 4,
+      "logo": "assets/images/salesTeam.png",
+      "saveTimeMoneyHeading": "Improve sales team retention",
+      "saveTimeMoneyContent": "There’s a lot riding on your ability to make the right hiring decisions. It’s why we provide talent teams and hiring managers with accurate and predictive data to hire the right candidates. Our clients experience 50% lower turnover with 83% of our candidates still employed after 12 months."
+    }
+  ],
+  "delieverResultData": [
+    {
+      "id": 1,
+      "logo": "assets/images/meter.svg",
+      "delieverResultPercentText": " 50%",
+      "delieverResultTextLineFirst": "Faster time",
+      "delieverResultTextLineSecond": "to hire"
+    },
+    {
+      "id": 2,
+      "logo": "assets/images/wrong.svg",
+      "delieverResultPercentText": " 50%",
+      "delieverResultTextLineFirst": "Wrong hires",
+      "delieverResultTextLineSecond": "eliminated "
+    },
+    {
+      "id": 3,
+      "logo": "assets/images/starFill.svg",
+      "delieverResultPercentText": " 50%",
+      "delieverResultTextLineFirst": "Reach to half",
+      "delieverResultTextLineSecond": "of the sales force "
+    },
+    {
+      "id": 4,
+      "logo": "assets/images/totalDownloads.png",
+      "delieverResultPercentText": " 50%",
+      "delieverResultTextLineFirst": "Lower employer",
+      "delieverResultTextLineSecond": "turnover"
+    }
+  ],
+  "industrySalesdata": [
+    {
+      "id": 1,
+      "logo": "assets/images/salesCalendar.png",
+      "industrySalesHeading": "Designed specifically for sales",
+      "industrySalesContent": "The industry’s top sales assessment is designed to accurately evaluate sales skills, behaviors, and selling competencies."
+    },
+    {
+      "id": 2,
+      "logo": "assets/images/salesHires.png",
+      "industrySalesHeading": "Customized to your role",
+      "industrySalesContent": "Individual contributor, sales management and sales leadership assessments are customized to your unique role and selling environment."
+    },
+    {
+      "id": 3,
+      "logo": "assets/images/salesReach.png",
+      "industrySalesHeading": "Evaluates 21 proven competencies",
+      "industrySalesContent": "We predict candidate success by evaluating 21 core selling competencies proven to be consistent among top performers."
+    },
+    {
+      "id": 4,
+      "logo": "assets/images/salesTeam.png",
+      "industrySalesHeading": "Predicts top performers",
+      "industrySalesContent": "The assessment data provides a clear picture of each candidate’s selling capabilities and drive to succeed – key predictors of top performers."
+    },
+    {
+      "id": 5,
+      "logo": "assets/images/salesTeam.png",
+      "industrySalesHeading": "Vetted with 2 million salespeople",
+      "industrySalesContent": "Leveraging 30 years of data, this award-winning assessment benchmarks candidates against 2 million salespeople globally."
+    },
+    {
+      "id": 6,
+      "logo": "assets/images/salesTeam.png",
+      "industrySalesHeading": "Proven 95% accurate",
+      "industrySalesContent": "Third-party validated, the sales assessment is 95% accurate at predicting future success. 92% of hires reach the top half of the salesforce in 1 year."
+    }
+  ],
+  "benifitsSalesdata": [
+    {
+      "id": 1,
+      "type": "rightCircleArrow",
+      "benifitContent": "Streamline and optimize your talent acquisition process"
+    },
+    {
+      "id": 2,
+      "type": "rightCircleArrow",
+      "benifitContent": "Make smarter hiring decisions backed by science"
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "benifitContent": "Define your ideal candidate profile using data and quantifiable metrics"
+    },
+    {
+      "id": 4,
+      "type": "rightCircleArrow",
+      "benifitContent": "Accelerate new hire ramp-time and improve retention"
+    },
+    {
+      "id": 5,
+      "type": "rightCircleArrow",
+      "benifitContent": "Designed specifically for sales"
+    }
+  ],
+  "TalentStepsData": [
+    {
+      "id": 1,
+      "stepsImage": "assets/images/employerBranding.png",
+      "stepsText": "Step 2 :",
+      "stepsContent": "Employer Branding"
+    },
+    {
+      "id": 2,
+      "stepsImage": "assets/images/candidateSourcing.png",
+      "stepsText": "Step 3 :",
+      "stepsContent": "Candidate Sourcing"
+    },
+    {
+      "id": 3,
+      "stepsImage": "assets/images/candidateScreening.png",
+      "stepsText": "Step 4 :",
+      "stepsContent": "Candidate Screening"
+    },
+    {
+      "id": 4,
+      "stepsImage": "assets/images/submissions.png",
+      "stepsText": "Step 5 :",
+      "stepsContent": "Candidate Submissions"
+    },
+    {
+      "id": 5,
+      "stepsImage": "assets/images/Onboarding.png",
+      "stepsText": "Step 6 :",
+      "stepsContent": "Onboarding"
+    }
+  ],
+  "employerProfileData": [
+    {
+      "id": 1,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Role & selling environment",
+      "employerdetails": " Details the role, selling environment, sales cycle, target buyers, average deal size, quota, funding, and more."
+    },
+    {
+      "id": 2,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Management style and culture",
+      "employerdetails": "Walks through your sales culture, management style, sales methodology, training, and tech stack."
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Overview and value proposition",
+      "employerdetails": "Showcases your company story, unique selling proposition, sales model, product videos and more. "
+    },
+    {
+      "id": 4,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Company and product reviews",
+      "employerdetails": "Displays your SaaS product rating from G2,  Capterra, Clutch, and company and employee insights from Glassdoor and LinkedIn."
+    }
+  ],
+  "insightAndCollaborationData": [
+    {
+      "id": 1,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Candidate tracking",
+      "employerdetails": "View each active candidate’s status in the recruiting process directly in HireDNA or export profiles to your ATS."
+    },
+    {
+      "id": 2,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Scheduling interviews",
+      "employerdetails": "Just click “accept” and candidates are moved to a shortlist notifying our team to schedule the interview for you. View and manage upcoming interviews right from your dashboard."
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Recruiting analytics",
+      "employerdetails": "You’ll receive weekly candidate pipeline reports plus real-time access to recruiting analytics, including time to fill, time to hire, submission to interview ratio, interview to offer ratio, and offer to hire."
+    }
+  ],
+  "talentTeamAndHiringData": [
+    {
+      "id": 1,
+      "type": "rightCircleArrow",
+      "content": "Fill sales roles 50% faster"
+    },
+    {
+      "id": 2,
+      "type": "rightCircleArrow",
+      "content": "Eliminate 96% of hiring mistakes"
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "content": "Make data-driven decisions"
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "content": "Hit sales quotas faster"
+    }
+  ],
+  "dataImpactData": [
+    {
+      "id": 1,
+      "logo": "assets/images/salesCalendar.png",
+      "industrySalesHeading": "Ensures high-quality hires",
+      "industrySalesContent": "We deliver detailed candidate analytics with all the information you need to make smarter hiring decisions."
+    },
+    {
+      "id": 2,
+      "logo": "assets/images/salesHires.png",
+      "industrySalesHeading": "Reduces unconscious bias",
+      "industrySalesContent": "Reduce bias with data-driven insights into how the candidate fits your role and organization beyond a standard resume and screening process. "
+    },
+    {
+      "id": 3,
+      "logo": "assets/images/salesReach.png",
+      "industrySalesHeading": "Streamlines the hiring process",
+      "industrySalesContent": "Tailor your interview process using data provided on the candidate’s selling behaviors, capabilities, past performance, and skills."
+    },
+    {
+      "id": 4,
+      "logo": "assets/images/salesTeam.png",
+      "industrySalesHeading": "Improves productivity and retention",
+      "industrySalesContent": "We’ll build a custom coaching and development plan based on key data insights to maximize your new hire’s performance."
+    }
+  ],
+  "candidateMatchData": [
+    {
+      "id": 1,
+      "candidateCategoryImage": "assets/images/idealRoleImage.png",
+      "category": "Role:",
+      "categoryWorkDetail": "work-style",
+      "categoryWorkDetailSecond": "alignment",
+      "description": "Assess the candidate’s strengths and abilities related to core functions and job duties including desired role, previous positions held, career track, sales function, compensation, and more."
+    },
+    {
+      "id": 2,
+      "candidateCategoryImage": "assets/images/preferredSellingImage.png",
+      "category": "Culture:",
+      "categoryWorkDetail": " team and",
+      "categoryWorkDetailSecond": "company alignment",
+      "description": "Evaluates the candidate’s ideal culture and the personality traits best suited to your work environment, including company funding stage, number of employees, ability to work remotely, management style, selling environment, and more."
+    },
+    {
+      "id": 3,
+      "candidateCategoryImage": "assets/images/salesExperienceInCircle.png",
+      "category": "Experience:",
+      "categoryWorkDetail": "job skills", 
+      "categoryWorkDetailSecond": "alignment",
+      "description": "Compares past sales experience, methods, and processes related to your selling environment. Scores are calculated based on years of experience, SaaS products sold, target markets, buyer personas, tech stack, deal size, sales cycle, and more."
+    },
+    {
+      "id": 4,
+      "candidateCategoryImage": "assets/images/AnwarAllenProfile.png",
+      "category": "Skills:",
+      "categoryWorkDetail": "sales skills",
+      "categoryWorkDetailSecond": "alignment",
+      "description": "A thorough analysis of the candidate’s tangible and intangible selling abilities across 21 selling competencies including coachability, drive to succeed, ability to hunt, sell consultative, close deals, and follow a sales process .",
+      "skillsAssesment": "skills assessment"
+    }
+  ],"moreVisibilityData": [
+    {
+      "id": 1,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Past selling experience",
+      "employerdetails": "View each active candidate’s status in the recruiting process directly in HireDNA or export profiles to your ATS."
+    },
+    {
+      "id": 2,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Sales history and results",
+      "employerdetails": "You’ll see each candidate’s sales history including average deal size, sales cycle, products sold and quota attainment history."
+    },
+    {
+      "id": 3,
+      "type": "rightCircleArrow",
+      "employerProfileHeading": "Desired selling role",
+      "employerdetails": "Hiring managers can preview what each candidate is looking for including virtual vs. in-person selling, level of hunting, company size, desired compensation and more."
+    }
+  ]
+}

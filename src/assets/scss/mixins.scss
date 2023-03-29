@@ -1,0 +1,605 @@
+@import "./breakpoints.scss";
+@import "./variables.scss";
+
+@mixin textStyling {
+  &.strong3 {
+    font-weight: 300;
+  }
+
+  &.strong4 {
+    font-weight: 400;
+  }
+
+  &.strong5 {
+    font-weight: 500;
+  }
+
+  &.strong6 {
+    font-weight: 600;
+  }
+
+  &.strong7 {
+    font-weight: 700;
+  }
+
+  &.primary {
+    color: $primary;
+  }
+
+  &.primary01 {
+    color: $primary01;
+  }
+  &.primary02 {
+    color: $primary02;
+  }
+
+  &.secondary {
+    color: $secondary;
+  }
+  &.tertiary {
+    color: $tertiary;
+  }
+
+  &.black {
+    color: $black;
+  }
+  &.black01 {
+    color: $black01;
+  }
+
+  &.white {
+    color: $white;
+  }
+
+  &.upperCase {
+    text-transform: uppercase;
+  }
+
+  &.lineThrough {
+    text-decoration: line-through;
+  }
+
+  &.underline {
+    text-decoration: underline;
+  }
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flexWrapBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin flexJustifyCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexJustifyBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flexJustifyAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flexEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@mixin flexJustifyEvenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin gridJustifyCenter {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+@mixin mlAuto {
+  margin-left: auto;
+  margin-right: auto;
+}
+@mixin imageProperty {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@mixin ScrollBar {
+  .scrollBar {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+      height: 10px;
+
+      @include sm {
+        width: 10px;
+        height: 8px;
+      }
+
+      @include mo {
+        width: 8px;
+        height: 8px;
+      }
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $white;
+      border-radius: 8px;
+
+      @include sm {
+        width: 6px;
+      }
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $primary;
+      border-radius: 10px;
+      border: 1px solid $white;
+    }
+  }
+}
+//   how it works page css
+@mixin howitWorksPageContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: $background01;
+  padding: 120px 0px;
+  @include mo {
+    padding: 60px 0px;
+  }
+  .howitWorksPageMain {
+    max-width: 1170px;
+    @include md {
+      max-width: 900px;
+    }
+    @include tab {
+      max-width: 700px;
+    }
+    @include mo {
+      max-width: 370px;
+    }
+    .howitWorksContentMain {
+      @include mo {
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    }
+    .howitWorksHeading {
+      @include mo {
+        margin-bottom: 10px;
+      }
+    }
+    .howitWorksHeading div {
+      @include mo {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+    .selectWorksType {
+      border-bottom: 1px solid $black02;
+      .profileText {
+        width: 320px;
+        text-align: center;
+        padding-bottom: 18px;
+        @include mo {
+          font-size: 14px;
+        }
+      }
+      .selectProfileText {
+        width: 320px;
+        color: $primary;
+        font-weight: 600;
+        border-bottom: 5px solid $primary;
+        padding-bottom: 18px;
+        @include mo {
+          font-size: 14px;
+        }
+      }
+    }
+    .promileImage {
+      max-width: 700px;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      @include mo {
+        order: 2;
+      }
+    }
+    .idealCandidateMain {
+      max-width: 350px;
+      @include md {
+        margin-left: 20px;
+        img {
+          width: 70px;
+        }
+      }
+      @include tab {
+        max-width: 220px;
+      }
+      @include mo {
+        max-width: 350px;
+      }
+    }
+    .idealCandidateHeading {
+      @include md {
+        margin: 10px 0px;
+        font-size: 18px;
+      }
+      @include tab {
+        font-size: 14px;
+      }
+      @include mo {
+        font-size: 22px;
+      }
+    }
+    .idealCandidateContent {
+      @include tab {
+        margin: unset;
+      }
+      @include mo {
+        margin-bottom: 20px;
+      }
+    }
+    .idealCandidateContent div {
+      @include md {
+        margin-bottom: 10px;
+        font-size: 15px;
+      }
+      @include tab {
+        font-size: 10px;
+      }
+      @include mo {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    }
+    .recruitButton {
+      @include md {
+        min-width: 100px;
+      }
+      @include tab {
+        min-width: 70px;
+        font-size: 9px;
+        margin: unset;
+      }
+      @include mo {
+        min-width: 100px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+// how we recruit page heading mixin
+@mixin howWeRecruitHeading {
+  .recruitingProcessHeading {
+    @include tab {
+      div {
+        font-size: 25px;
+        line-height: 40px;
+      }
+    }
+    @include mo {
+      margin-bottom: unset;
+      div {
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+  .textBelowHeadingMain {
+    @include tab {
+      div {
+        font-size: 14px;
+      }
+    }
+    @include mo {
+      margin-top: 20px;
+      div {
+        max-width: 400px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        line-height: 24 px;
+        justify-content: unset;
+      }
+    }
+  }
+}
+// clickableProfile mixin
+@mixin idealCandidateMain {
+  max-width: 550px;
+  @include md {
+    margin-left: 20px;
+    img {
+      width: 70px;
+    }
+  }
+  @include tab {
+    max-width: 350px;
+  }
+  @include mo {
+    max-width: 350px;
+  }
+
+  .idealCandidateHeading {
+    @include md {
+      margin: 10px 0px;
+      font-size: 18px;
+    }
+    @include tab {
+      font-size: 14px;
+    }
+    @include mo {
+      font-size: 22px;
+    }
+  }
+  .idealCandidateContent {
+    @include tab {
+      margin: unset;
+    }
+    @include mo {
+      margin-bottom: 20px;
+    }
+  }
+  .idealCandidateContent div {
+    @include md {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    @include tab {
+      font-size: 10px;
+    }
+    @include mo {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
+  .recruitButton {
+    @include md {
+      min-width: 100px;
+    }
+    @include tab {
+      min-width: 70px;
+      font-size: 9px;
+      margin: unset;
+    }
+    @include mo {
+      min-width: 100px;
+      font-size: 15px;
+    }
+  }
+}
+// how we recruit first section mixin
+@mixin howWeRecruitSection {
+  max-width: 1170px;
+  padding: 120px 0px;
+  @include md {
+    max-width: 950px;
+  }
+  @include tab {
+    max-width: 700px;
+    padding: 60px 0px;
+  }
+  @include mo {
+    flex-wrap: wrap;
+    padding: 30px 0px;
+  }
+  .dnaHeading {
+    max-width: 680px;
+    @include tab {
+      margin: 0px 20px 0px 0px;
+    }
+    @include mo {
+      margin: 10px 0px 20px 20px;
+    }
+    .pageHeading {
+      div {
+        @include md {
+          font-size: 50px;
+        }
+
+        @include tab {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        @include mo {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .saasSalesText {
+      border-bottom: 5px solid $secondary;
+      min-width: 335px;
+      @include blg {
+        min-width: 200px;
+      }
+      @include md {
+        min-width: 120px;
+      }
+      @include tab {
+        min-width: 200px;
+      }
+    }
+    .dnaParaContent {
+      max-width: 542px;
+      @include tab {
+        margin-top: 20px;
+      }
+      div {
+        @include md {
+          max-width: 450px;
+          font-size: 15px;
+        }
+        @include tab {
+          font-size: 14px;
+          max-width: 400px;
+        }
+        @include mo {
+          max-width: 370px;
+        }
+      }
+    }
+  }
+  .recruiterImage {
+    max-width: 570px;
+    @include mo {
+      margin: 30px 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+// industry sales mixin
+@mixin industrySalesContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: $background02;
+  padding: 120px 0px;
+  @include tab {
+    padding: 60px 0px;
+  }
+  .industrySalesMain {
+    max-width: 1170px;
+    @include md {
+      max-width: 950px;
+    }
+    @include tab {
+      max-width: 530px;
+    }
+    @include mo {
+      max-width: 350px;
+    }
+    .industryHeadingMain {
+      @include mo {
+        div {
+          font-size: 24px;
+        }
+      }
+    }
+    .industryDetailHeading {
+      @include md {
+        font-size: 20px;
+      }
+      @include mo {
+        font-size: 16px;
+      }
+    }
+    .industrySalesDetailsContent {
+      max-width: 430px;
+      @include md {
+        font-size: 16px;
+      }
+      @include mo {
+        font-size: 14px;
+      }
+    }
+  }
+}
+// containerWidthHeightView
+@mixin containerWidthHeightView {
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 0px;
+  @include tab {
+    padding: 60px 0px;
+  }
+  @include mo {
+    padding: 40px 0px;
+  }
+}
+// employer Details and image profile beside info
+@mixin uniqueStorySection {
+  background: $white;
+  @include containerWidthHeightView;
+  .uniqueStoryMain {
+    max-width: 1170px;
+
+    @include howWeRecruitHeading;
+    .employerProfileSection {
+      @include md {
+        max-width: 920px;
+        @include mlAuto;
+        align-items: unset;
+      }
+      @include tab {
+        max-width: 720px;
+      }
+      @include mo {
+        flex-wrap: wrap;
+      }
+      .employerProfileMain {
+        max-width: 505px;
+        @include mo {
+          max-width: 400px;
+          text-align: left;
+          @include mlAuto;
+        }
+        .employerProfileHeading {
+          @include md {
+            font-size: 30px;
+          }
+        }
+        i {
+          margin-top: 1px;
+        }
+        .employerProfileRolesheading {
+          @include md {
+            font-size: 16px;
+          }
+          @include tab {
+            font-size: 14px;
+          }
+        }
+        .employerProfileContent {
+          @include md {
+            font-size: 16px;
+            max-width: 450px;
+          }
+          @include tab {
+            font-size: 14px;
+          }
+        }
+      }
+      .leaseAccelatorImage {
+        max-width: 615px;
+        @include md {
+          margin-top: 80px;
+        }
+        @include tab {
+          margin-left: 20px;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

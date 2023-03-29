@@ -1,0 +1,29 @@
+@import "../../../assets/scss/mixins.scss";
+.cardContainer {
+  width: 100%;
+  max-width: 570px;
+  min-height: 344px;
+  max-height: 344px;
+  border: 1px solid $primary04;
+  border-radius: 10px;
+  background: $white;
+  padding: 30px;
+  @include md {
+    max-width: 450px;
+  }
+  @include tab {
+  max-width: 570px;
+
+  }
+  .cardContent, div {
+    @include md {
+      font-size: 14px;
+      // width: 100%;
+      // min-width: 500px;
+    }
+    @include mo {
+      font-size: 12px;
+    }
+  
+  }
+}

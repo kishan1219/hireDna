@@ -1,0 +1,298 @@
+@import "../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  // predictiveSales css start
+  .predictiveSalesMain {
+    max-width: 1200px;
+    padding-bottom: 120px;
+    @include md {
+      max-width: 900px;
+      justify-content: center;
+    }
+    @include tab {
+      max-width: 700px;
+      justify-content: unset;
+      align-items: unset;
+    }
+    @include mo {
+      margin-top: 15px;
+      padding-left: 20px;
+      flex-wrap: wrap;
+    }
+    .predictiveSalesHeading {
+      max-width: 650px;
+    }
+    .predictiveSalesHeading {
+      @include md {
+        max-width: 400px;
+        font-size: 40px;
+        line-height: 50px;
+      }
+      @include tab {
+        max-width: 400px;
+        font-size: 27px;
+        line-height: 40px;
+      }
+      @include mo {
+        max-width: 300px;
+        font-size: 30px;
+      }
+    }
+    .skillsAssessmentHeading {
+      border-bottom: 5px solid $secondary;
+      line-height: 49px;
+      max-width: 630px;
+      @include md {
+        font-size: 43px;
+        max-width: 550px;
+      }
+      @include tab {
+        max-width: 290px;
+        font-size: 31px;
+      }
+      @include mo {
+        font-size: 31px;
+      }
+    }
+    .headingBesideImages {
+      max-width: 500px;
+      margin-top: 30px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .skillsParaContent {
+      max-width: 554px;
+      @include md {
+        max-width: 450px;
+        div {
+          font-size: 16px;
+        }
+      }
+      @include tab {
+        div {
+          font-size: 14px;
+        }
+      }
+      @include mo {
+        max-width: 400px;
+
+        div {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  // predictiveSales css end
+  // industry Sales start
+  .industrySalesContainer {
+    background: $background02;
+   @include containerWidthHeightView;
+    .industrySalesMain {
+      max-width: 1170px;
+      @include md {
+        max-width: 950px;
+      }
+      @include tab {
+        max-width: 530px;
+      }
+      @include mo {
+        max-width: 350px;
+      }
+      .industryHeadingMain {
+        @include mo {
+          div {
+            font-size: 24px;
+          }
+        }
+      }
+      .industryDetailHeading {
+        @include md {
+          font-size: 20px;
+        }
+        @include mo {
+          font-size: 16px;
+        }
+      }
+      .industrySalesDetailsContent {
+        max-width: 430px;
+        @include md {
+          font-size: 16px;
+        }
+        @include mo {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  //  industry Sales  end
+  // goldMedal css start
+  .goldMedalPageContainer {
+    width: 100%;
+    min-height: 506px;
+    @include tab {
+      min-height: 200px;
+    }
+    background: $primary;
+    .goldMedalBackgroundimage {
+      background-image: url("../../../public/assets/images/resultPageBackground.png");
+      background-size: contain;
+      min-height: 493px;
+      width: 100%;
+      padding: 80px 0px;
+      @include tab {
+        min-height: 200px;
+      }
+      .goldMedalMain {
+        max-width: 1100px;
+        @include md {
+          max-width: 900px;
+        }
+        @include tab {
+          max-width: 600px;
+        }
+        @include mo {
+          max-width: 350px;
+        }
+
+        img {
+          @include md {
+            width: 300px;
+          }
+          @include tab {
+            width: 200px;
+          }
+          @include mo {
+            width: 100px;
+          }
+        }
+
+        .goldMedalContentMain div {
+          @include md {
+            font-size: 30px;
+          }
+          @include tab {
+            font-size: 22px;
+            line-height: 30px;
+          }
+          @include mo {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+        .goldSalesBorderText {
+          border-bottom: 5px solid $greenPrimary;
+          @include mo {
+            border-bottom: 3px solid $greenPrimary;
+          }
+        }
+      }
+    }
+  }
+  // goldMedal css end
+
+  .howitWorksPageContainer {
+    background: $background03 !important;
+    @include howitWorksPageContainer;
+    .idealCandidateContent {
+      @include tab {
+        div {
+          font-size: 14px !important;
+        }
+      }
+    }
+    .sellingCompetenciesContent {
+      max-width: 900px;
+      @include md {
+        max-width: 700px;
+        div {
+          font-size: 14px;
+        }
+      }
+      @include tab {
+        max-width: 600px;
+        div {
+          font-size: 12px;
+        }
+      }
+      @include mo {
+        max-width: 400px;
+        margin-bottom: 30px;
+        div {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  // will-to-sell css end
+  // benifits of using sales skill page start
+  .benifitsOfUsingSalesSkillPageContainer {
+    background: $background04;
+    @include containerWidthHeightView;
+    .benifitsOfUsingSalesBackgroundMain {
+      background-image: url("../../../public/assets/images/employesSaysBackground.png");
+      background-size: contain;
+      min-height: 584px;
+      width: 100%;
+      .benifitsOfUsingSalesMain {
+        max-width: 1200px;
+        @include md {
+          max-width: 900px;
+        }
+        @include tab {
+          max-width: 600px;
+        }
+        @include mo {
+          max-width: 380px;
+        }
+        .benifitsSalesHeading {
+          @include mo {
+            div {
+              font-size: 22px;
+              line-height: 30px;
+            }
+          }
+        }
+        .benifitsSalesContentMain {
+          @include tab {
+            flex-wrap: wrap;
+          }
+          .ellingCompetenceiesImage {
+            max-width: 570px;
+            img {
+              max-width: 100%;
+              height: auto;
+            }
+          }
+          .benifitsSalesTextMain {
+            max-width: 570px;
+            @include md {
+              max-width: 430px;
+              margin-left: 20px;
+              div {
+                font-size: 14px;
+              }
+            }
+            @include tab {
+              max-width: 530px;
+              margin: 60px 0px 0px 0px;
+              div {
+                font-size: 18px;
+              }
+            }
+            @include mo {
+              div {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // benifits of using sales skill page end
+}

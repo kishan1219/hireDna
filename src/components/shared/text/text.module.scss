@@ -1,0 +1,77 @@
+@import "../../../assets/scss/mixins.scss";
+.xxsText {
+  font-size: $font-xxs;
+  line-height: 12px;
+  @include textStyling;
+}
+.xsText {
+  font-size: $font-xs;
+  line-height: 14px;
+  @include textStyling;
+}
+.smText {
+  font-size: $font-sm;
+  line-height: 18px;
+  @include textStyling;
+}
+.mdText {
+  font-size: $font-md;
+  line-height: 19px;
+  @include textStyling;
+}
+.lgText {
+  font-size: $font-lg;
+  line-height: 20px;
+  @include textStyling;
+}
+.mlgText {
+  font-size: $font-mlg;
+  line-height: 26px;
+  @include textStyling;
+}
+
+.xlText {
+  font-size: $font-xl;
+  line-height: 26px;
+  @include textStyling;
+}
+.xxlText {
+  font-size: $font-xxl;
+  line-height: 30px;
+  @include textStyling;
+}
+.xxxlText {
+  font-size: $font-xxxl;
+  line-height: 36px;
+  @include textStyling;
+}
+.xllgText {
+  font-size: $font-xllg;
+  line-height: 45px;
+  @include textStyling;
+}
+.xxviiiText {
+  font-size: $font-xxviii;
+  line-height: 45px;
+  @include textStyling;
+}
+.bigText {
+  font-size: $font-big;
+  line-height: 46px;
+  @include textStyling;
+}
+.big01Text {
+  font-size: $font-big01;
+  line-height: 40px;
+  @include textStyling;
+}
+.big02Text {
+  font-size: $font-big02;
+  line-height: 75px;
+  @include textStyling;
+}
+.big03Text {
+  font-size: $font-big03;
+  line-height: 80px;
+  @include textStyling;
+}

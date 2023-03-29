@@ -1,0 +1,158 @@
+@import "../../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 127px;
+  padding: 35px 120px 40px 115px;
+  @include xlmd {
+    padding: 35px 70px 40px 40px;
+  }
+  @include md {
+    padding: 35px 0px 40px 20px;
+  }
+  @include tab {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  @include mo {
+    padding: 35px 20px 40px 10px;
+    min-width: 425px;
+    z-index: 1;
+  }
+
+  &.primary {
+    background: $background;
+    .listSelect {
+      color: $white;
+    }
+    
+  }
+  &.secondary {
+    background: $white;
+    z-index: 11;
+    .selectMain {
+      background: $white;
+    }
+    .loginMain{
+      background: $white;
+
+    }
+  }
+  .logo {
+    max-width: 200px;
+    @include mo {
+      order: 1;
+      max-width: 200px;
+      margin-left: 10px;
+    }
+  }
+  .menuIcon {
+    display: none;
+    @include mo {
+      display: unset;
+      order: 2;
+      margin-right: 30px;
+    }
+  }
+  .selectMain {
+    @include mo {
+      order: 3;
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+  }
+  .recruitSelectMain {
+    @include mo {
+      width: 300px;
+    }
+  }
+  .companySelectMain {
+    z-index: 1;
+    @include mo {
+      margin-left: 10px;
+    }
+    .semiCircleDown {
+      position: absolute;
+      top: 0px;
+      @include blg {
+        width: 200px;
+      }
+      @include xlmd {
+        width: 200px;
+      }
+      @include md {
+        width: 170px;
+      }
+      @include tab {
+        display: none;
+      }
+    }
+  }
+  .listSelect {
+    margin-right: 45px;
+    @include md {
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    @include mo {
+      font-size: 20px;
+    }
+    svg {
+      display: none;
+    }
+    div {
+      border: none;
+      outline: none;
+      padding: 32px 8px !important;
+      @include mo {
+        padding: 16px 8px !important;
+      }
+    }
+  }
+  .companyList {
+    div {
+      border: none;
+      outline: none;
+      padding: 32px 8px 32px 0px !important;
+      @include mo {
+        padding: 16px 8px 16px 0px !important;
+      }
+    }
+  }
+  .pricingText {
+    @include tab {
+      margin-right: 20px;
+    }
+    @include mo {
+      margin: 0px 20px 0px 10px;
+      font-size: 20px;
+      width: 350px;
+      padding: 16px 0px 16px 0px;
+    }
+  }
+
+  .loginMain {
+    @include xlmd {
+      min-width: 300px;
+      margin-left: 64px;
+    }
+    @include md {
+      min-width: 270px;
+    }
+    @include tab {
+      margin-left: 227px;
+    }
+    @include mo {
+      order: 4;
+      margin-left: 2px;
+    }
+    .getBtn {
+      @include md {
+        min-width: 140px;
+      }
+      @include mo {
+        margin-left: 30px;
+        min-width: 220px;
+      }
+    }
+  }
+}

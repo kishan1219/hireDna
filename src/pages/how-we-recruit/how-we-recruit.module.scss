@@ -1,0 +1,506 @@
+@import "../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  // how we recruit css start
+  .howWeRecruitSection {
+    max-width: 1170px;
+    padding: 120px 0px;
+    @include md {
+      max-width: 950px;
+    }
+    @include tab {
+      max-width: 700px;
+      padding: 60px 0px;
+    }
+    @include mo {
+      flex-wrap: wrap;
+      padding: 30px 0px;
+    }
+    .dnaHeading {
+      max-width: 680px;
+      @include tab {
+        margin: 0px 20px 0px 0px;
+      }
+      @include mo {
+        margin: 10px 0px 20px 20px;
+      }
+      .pageHeading {
+        div {
+          @include md {
+            font-size: 50px;
+          }
+
+          @include tab {
+            font-size: 30px;
+            line-height: 40px;
+          }
+          @include mo {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .saasSalesText {
+        border-bottom: 5px solid $secondary;
+        min-width: 335px;
+        @include blg {
+          min-width: 200px;
+        }
+        @include md {
+          min-width: 120px;
+        }
+        @include mo {
+          min-width: 170px;
+        }
+      }
+      .dnaParaContent {
+        max-width: 542px;
+        @include tab {
+          margin-top: 20px;
+        }
+        div {
+          @include md {
+            max-width: 450px;
+            font-size: 15px;
+          }
+          @include tab {
+            font-size: 14px;
+            max-width: 400px;
+          }
+          @include mo {
+            max-width: 370px;
+          }
+        }
+      }
+    }
+    .recruiterImage {
+      max-width: 570px;
+      @include mo {
+        margin: 30px 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  // how we recruit css end
+
+  // recruiting Process css start
+  .recruitingProcessSection {
+    background: $background02;
+    position: relative;
+    @include containerWidthHeightView;
+    min-height: 900px;
+    .recruitingProcessMain {
+      max-width: 1170px;
+      @include tab {
+        max-width: 700px;
+      }
+      @include mo {
+        max-width: 380px;
+      }
+      .recruitingProcessHeading {
+        @include tab {
+          div {
+            font-size: 25px;
+            line-height: 40px;
+          }
+        }
+        @include mo {
+          margin-bottom: unset;
+          div {
+            font-size: 16px;
+            line-height: 30px;
+          }
+        }
+      }
+      .textBelowHeadingMain {
+        @include tab {
+          div {
+            font-size: 14px;
+          }
+        }
+        @include mo {
+          margin-top: 20px;
+          div {
+            max-width: 400px;
+            font-size: 14px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    .tailorCandidateMain {
+      max-width: 1170px;
+      background: $white;
+      position: absolute;
+      top: 350px;
+      @include md {
+        max-width: 900px;
+        left: 60px;
+      }
+      @include md {
+        max-width: 700px;
+        top: 280px;
+
+        left: 30px;
+      }
+      @include mo {
+        max-width: 370px;
+
+        flex-wrap: wrap;
+      }
+      .talentDiscoveryMain {
+        max-width: 470px;
+        background: $background02;
+        @include md {
+          min-width: 360px;
+        }
+        @include tab {
+          min-width: 330px;
+        }
+
+        .talentDiscoveryContent {
+          background: $white;
+          padding: 50px 35px;
+          // box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.25);
+          border-left: 5px solid $secondary;
+          border-radius: 10px 0px 0px 10px;
+
+          @include md {
+            div {
+              font-size: 16px;
+            }
+          }
+          @include tab {
+            div {
+              font-size: 14px;
+            }
+          }
+          @include mo {
+            padding: 20px 35px;
+          }
+          img {
+            width: 30px;
+            @include md {
+              width: 20px;
+            }
+          }
+        }
+        .stepsContentMain {
+          padding: 0px 35px;
+          @include md {
+            div {
+              font-size: 16px;
+            }
+          }
+          @include tab {
+            div {
+              font-size: 14px;
+            }
+          }
+          @include mo {
+            margin-bottom: 20px;
+          }
+          img {
+            width: 30px;
+            @include md {
+              width: 20px;
+            }
+          }
+        }
+      }
+      .tailorProfileMain {
+        max-width: 700px;
+        padding: 50px;
+        @include mo {
+          padding: 25px;
+        }
+        .tailorProfileHeading {
+          @include tab {
+            font-size: 22px;
+          }
+        }
+        .tailorProfileBelowText {
+          @include md {
+            font-size: 16px;
+          }
+          @include tab {
+            font-size: 14px;
+            margin-bottom: 25px;
+          }
+        }
+        .candidateProfileImage {
+          max-width: 468px;
+          img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+  // recruiting Process css end
+  // hireDna Section css start
+  .hireDnaSection {
+    width: 100%;
+    min-height: 400px;
+    background: $primary;
+    @include tab {
+      min-height: 200px;
+    }
+
+    .hireDnaSectionBackground {
+      background-image: url("../../../public/assets/images/resultPageBackground.png");
+      background-size: contain;
+      width: 100%;
+      padding: 200px 0px 0px;
+      min-height: 493px;
+      @include mo {
+        min-height: 550px;
+      }
+      .hireDnaHeading {
+        @include mo {
+          margin-top: 120px;
+          div {
+            font-size: 22px;
+          }
+        }
+      }
+      .dnaWorksHeadingMain {
+        @include tab {
+          div {
+            font-size: 30px;
+          }
+        }
+        @include mo {
+          div {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+  // recruiting Process css end
+  // runique Story css start
+  .uniqueStorySection {
+    background: $white;
+    @include containerWidthHeightView;
+    .uniqueStoryMain {
+      max-width: 1170px;
+
+      @include howWeRecruitHeading;
+      .employerProfileSection {
+        @include md {
+          max-width: 920px;
+          @include mlAuto;
+          align-items: unset;
+        }
+        @include tab {
+          max-width: 720px;
+        }
+        @include mo {
+          flex-wrap: wrap;
+        }
+        .employerProfileMain {
+          max-width: 505px;
+          @include mo {
+            max-width: 400px;
+            text-align: left;
+            @include mlAuto;
+          }
+          .employerProfileHeading {
+            @include md {
+              font-size: 30px;
+            }
+          }
+          i {
+            margin-top: 1px;
+          }
+          .employerProfileRolesheading {
+            @include md {
+              font-size: 16px;
+            }
+            @include tab {
+              font-size: 14px;
+            }
+          }
+          .employerProfileContent {
+            @include md {
+              font-size: 16px;
+              max-width: 450px;
+            }
+            @include tab {
+              font-size: 14px;
+            }
+          }
+        }
+        .leaseAccelatorImage {
+          max-width: 615px;
+          @include md {
+            margin-top: 80px;
+          }
+          @include tab {
+            margin-left: 20px;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  // runique Story css end
+  // insight and collaboration css start
+  .insightAndCollaboration {
+    background: $background01;
+  }
+  // insight and collaboration css end
+  // talent teams and hiring start
+  .howitWorksPageContainer {
+    background: $white;
+    @include containerWidthHeightView;
+    @include mo {
+      padding: 60px 0px;
+    }
+    .howitWorksPageMain {
+      max-width: 1170px;
+      @include md {
+        max-width: 900px;
+      }
+      @include tab {
+        max-width: 700px;
+      }
+      @include mo {
+        max-width: 370px;
+      }
+      .howitWorksContentMain {
+        @include mo {
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+      }
+      .recruitingProcessHeading {
+        @include tab {
+          div {
+            font-size: 25px;
+            line-height: 40px;
+          }
+        }
+        @include mo {
+          margin-bottom: unset;
+          div {
+            font-size: 16px;
+            line-height: 30px;
+          }
+        }
+      }
+      .selectWorksType {
+        border-bottom: 1px solid $black02;
+        .profileText {
+          width: 585px;
+          text-align: center;
+          padding-bottom: 18px;
+          @include mo {
+            font-size: 14px;
+          }
+        }
+        .selectProfileText {
+          width: 585px;
+          color: $black;
+          font-weight: 600;
+          border-bottom: 5px solid $primary;
+          padding-bottom: 18px;
+          @include mo {
+            font-size: 14px;
+          }
+        }
+      }
+      .promileImage {
+        max-width: 570px;
+        @include md {
+          max-width: 440px;
+        }
+        @include tab {
+          max-width: 350px;
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        @include mo {
+          order: 2;
+        }
+      }
+
+      .idealCandidateMain {
+        max-width: 550px;
+        @include md {
+          max-width: 400px;
+
+          img {
+            width: 70px;
+          }
+        }
+        @include tab {
+          max-width: 300px !important;
+          line-height: 15px;
+        }
+        @include mo {
+          max-width: 400px !important;
+          margin-left: unset !important;
+          margin-bottom: 20px;
+        }
+        .idealCandidateContent {
+          @include md {
+            margin: unset;
+            max-width: 380px;
+          }
+          @include mo {
+            margin-bottom: 20px;
+          }
+        }
+        .idealCandidateContent div {
+          @include md {
+            line-height: 20px;
+          }
+          @include tab {
+            font-size: 10px;
+          }
+          @include mo {
+            font-size: 16px;
+            margin-bottom: 5px;
+          }
+        }
+        i {
+          @include tab {
+            font-size: 14px;
+          }
+          @include mo {
+            font-size: 24px;
+          }
+        }
+        .buildteamPropertyText {
+          @include md {
+            font-size: 14px;
+            line-height: 20px;
+          }
+          @include tab {
+            font-size: 10px;
+            line-height: 18px;
+          }
+          @include mo {
+            font-size: unset;
+          }
+        }
+        @include idealCandidateMain;
+      }
+    }
+  }
+  // talent teams and hiring end
+}

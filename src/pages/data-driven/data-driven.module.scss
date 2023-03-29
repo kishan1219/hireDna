@@ -1,0 +1,71 @@
+@import "../../assets/scss/mixins.scss";
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  // data driven css start
+  .howWeRecruitSection {
+    @include howWeRecruitSection;
+    .saasSalesText {
+      @include tab {
+        margin-left: 10px;
+      }
+    }
+  }
+  // data driven css  end
+  // data impact css start
+
+  .industrySalesContainer {
+    @include industrySalesContainer;
+    .industryHeadingMain {
+      @include tab {
+        div {
+          font-size: 20px;
+        }
+      }
+      @include mo {
+        margin-bottom: 30px;
+        div {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+  // data impact css  end
+  // data impact css start
+  .candidateMatchingContainer {
+    background: $white;
+    @include containerWidthHeightView;
+    .candidateMatchingMain {
+      max-width: 1170px;
+      @include md {
+        max-width: 970px;
+      }
+      @include tab {
+        max-width: 700px;
+      }
+      @include mo {
+        max-width: 400px;
+      }
+      @include howWeRecruitHeading;
+      .idealRoleImage {
+        max-width: 600px;
+        @include imageProperty;
+      }
+      .skillsContentMain {
+        @include gridJustifyCenter;
+        max-width: 570px;
+        .contentMain {
+          max-width: 485px;
+        }
+      }
+    }
+  }
+  // data driven css  end
+  // data driven css  start
+  .uniqueStorySection {
+    @include uniqueStorySection;
+    background: $background01;
+  }
+  // data driven css  end
+}

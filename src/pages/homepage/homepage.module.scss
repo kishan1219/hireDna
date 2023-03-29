@@ -1,0 +1,544 @@
+@import "../../assets/scss/mixins.scss";
+@include ScrollBar;
+.scrollBar {
+  overflow-y: auto;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  // dna page css start
+  .dnaMain {
+    background: $background;
+    width: 100%;
+    min-height: 750px;
+    position: relative;
+    @include blg {
+      min-height: 680px;
+    }
+    @include xlmd {
+      min-height: 590px;
+    }
+    @include md {
+      min-height: 440px;
+    }
+
+    @include mo {
+      padding: 30px 0px 0px 5px;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+    }
+    .dnaHeading {
+      position: absolute;
+      max-width: 627px;
+      top: 90px;
+      left: 317px;
+      @include bxlg {
+        left: 230px;
+      }
+      @include blg {
+        left: 190px;
+      }
+      @include md {
+        left: 130px;
+        top: 25px;
+      }
+      @include tab {
+        left: 50px;
+      }
+      @include mo {
+        position: static;
+        margin: 10px 0px 20px 10px;
+      }
+      .pageHeading {
+        div {
+          @include blg {
+            font-size: 50px;
+          }
+          @include md {
+            font-size: 36px;
+            line-height: 50px;
+          }
+          @include tab {
+            font-size: 28px;
+          }
+          @include mo {
+            font-size: 36px;
+          }
+        }
+      }
+
+      .saasSalesText {
+        border-bottom: 5px solid $greenPrimary;
+        min-width: 335px;
+        @include blg {
+          min-width: 200px;
+        }
+        @include md {
+          min-width: 120px;
+        }
+      }
+      .dnaParaContent {
+        max-width: 527px;
+        @include tab {
+          margin-top: 10px;
+        }
+        div {
+          @include blg {
+            font-size: 15px;
+          }
+          @include md {
+            font-size: 11px;
+          }
+          @include tab {
+            font-size: 9px;
+          }
+          @include mo {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .headingBesideImages {
+      @include mo {
+        position: relative;
+        @include flex;
+      }
+      .groupCircleImage {
+        position: absolute;
+        top: 40px;
+        right: 470px;
+        z-index: 11;
+        @include bxlg {
+          right: 360px;
+        }
+        @include blg {
+          top: 10px;
+          width: 400px;
+        }
+        @include xlmd {
+          top: 0px;
+          right: 340px;
+        }
+        @include md {
+          top: 0px;
+          right: 210px;
+          width: 300px;
+        }
+        @include tab {
+          top: 10px;
+          width: 290px;
+          right: 110px;
+        }
+        @include mo {
+          position: static;
+          width: 200px;
+          margin-left: 50px;
+        }
+      }
+      .candidateImage {
+        position: absolute;
+        top: 65px;
+        right: 385px;
+        z-index: 111;
+        @include bxlg {
+          right: 270px;
+        }
+        @include blg {
+          top: 25px;
+          right: 260px;
+          width: 450px;
+        }
+        @include xlmd {
+          right: 235px;
+        }
+        @include md {
+          right: 115px;
+          width: 350px;
+        }
+        @include tab {
+          width: 300px;
+          right: 58px;
+        }
+        @include mo {
+          top: 15px;
+          left: 80px;
+          width: 250px;
+        }
+      }
+      .roleExperienceImage {
+        position: absolute;
+        top: 275px;
+        right: 650px;
+        z-index: 1111;
+        @include bxlg {
+          right: 540px;
+        }
+        @include blg {
+          right: 470px;
+          top: 215px;
+        }
+        @include xlmd {
+          right: 440px;
+        }
+        @include md {
+          top: 170px;
+          right: 280px;
+          width: 250px;
+        }
+        @include tab {
+          top: 150px;
+          width: 200px;
+          right: 230px;
+        }
+        @include mo {
+          top: 120px;
+          left: 40px;
+          width: 150px;
+        }
+      }
+    }
+    .semiCircleUpwardImage {
+      position: absolute;
+      bottom: 0px;
+      right: 280px;
+      z-index: 1111;
+      @include bxlg {
+        right: 170px;
+      }
+      @include blg {
+        right: 180px;
+      }
+      @include xlmd {
+        right: 180px;
+        width: 220px;
+      }
+      @include md {
+        right: 140px;
+        width: 130px;
+      }
+      @include tab {
+        right: 70px;
+        width: 100px;
+      }
+      @include mo {
+        left: 210px;
+        width: 80px;
+      }
+    }
+    .yellowHalfPillImage {
+      position: absolute;
+      bottom: 0px;
+      right: 60px;
+      z-index: 1111;
+      @include blg {
+        right: 40px;
+      }
+      @include tab {
+        right: 20px;
+      }
+      @include mo {
+        left: 380px;
+      }
+    }
+  }
+  // dna pager css end
+  // saas Company css start
+
+  .saasCompanyContainer {
+    margin-top: 120px;
+    .logoSliderMain {
+      width: 100%;
+      .slideMain {
+        min-width: 250px;
+        max-width: 250px;
+        @include flex;
+        cursor: pointer;
+        min-height: 50px;
+        @include xlmd {
+          min-width: 230px;
+        }
+        @include md {
+          min-width: 180px;
+        }
+      }
+    }
+    .sassHeading {
+      max-width: 650px;
+      @include md {
+        max-width: 575px;
+      }
+      @include mo {
+        @include mlAuto;
+        max-width: 300px;
+      }
+      div {
+        @include md {
+          font-size: 35px;
+        }
+        @include mo {
+          font-size: 18px;
+        }
+      }
+    }
+    .viewCaseStudiesText {
+      margin-right: 200px;
+      @include md {
+        margin-right: 100px;
+      }
+      @include mo {
+        margin-right: 20px;
+      }
+    }
+    // right sales page css start
+    .rightSalesContainer {
+      background-image: url("../../../public/assets/images/rightSalesBackground.png");
+      width: 100%;
+      min-height: 100vh;
+      padding-bottom: 120px;
+      @include mo {
+        padding-bottom: 60px;
+      }
+      .sassHeading {
+        max-width: 800px;
+        margin-top: 120px;
+        padding-top: 120px;
+        @include md {
+          max-width: 725px;
+        }
+        @include tab {
+          max-width: 620px;
+          padding-top: 60px;
+
+          @include mlAuto;
+        }
+        @include mo {
+          max-width: 390px;
+        }
+        div {
+          @include tab {
+            font-size: 30px;
+          }
+          @include mo {
+            font-size: 18px;
+          }
+        }
+      }
+      .cardDetailMain {
+        max-width: 1200px;
+        margin: 60px auto 0px auto;
+        @include md {
+          max-width: 1000px;
+        }
+        @include tab {
+          max-width: 620px;
+        }
+        @include mo {
+          max-width: 400px;
+          margin-left: unset;
+        }
+      }
+    }
+    // right sales page css end
+  }
+  //  result deliever css start
+  .resultDelieverPageMain {
+    width: 100%;
+    background: $background;
+    min-height: 493px;
+    .resultDelieverBackgroundimage {
+      background-image: url("../../../public/assets/images/resultPageBackground.png");
+      background-size: contain;
+      min-height: 493px;
+      width: 100%;
+      padding: 80px 0px;
+      .resultDelieverContentMain {
+        max-width: 1080px;
+        @include blg {
+          max-width: 900px;
+        }
+        @include xlmd {
+          max-width: 850px;
+        }
+        @include md {
+          max-width: 750px;
+        }
+        @include tab {
+          max-width: 650px;
+          flex-wrap: wrap;
+          gap: 30px;
+        }
+        .resultDelieverContent {
+          max-width: 270px;
+          gap: 10px;
+          @include tab {
+            min-width: 280px;
+          }
+          @include mo {
+            min-width: 195px;
+          }
+          .resultPercentStrongText {
+            @include md {
+              font-weight: 600;
+            }
+            @include mo {
+              font-size: 45px;
+            }
+          }
+          .resultContentText {
+            @include md {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //  result deliever css end
+  //  save timea and money css start
+  .saveTimeAndMoneyPageMain {
+    background: $white;
+    @include containerWidthHeightView;
+    .saveTimeAndMoneyPageContent {
+      max-width: 1174px;
+      @include md {
+        max-width: 950px;
+      }
+      @include tab {
+        max-width: 700px;
+      }
+      @include mo {
+        max-width: 380px;
+      }
+      .saveTimeAndMoneyPageHeading {
+        @include mo {
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+      }
+      .saveTimeAndMoneyPageHeading div {
+        @include tab {
+          font-size: 30px;
+          line-height: 30px;
+        }
+        @include mo {
+          font-size: 16px;
+          margin-top: unset;
+          margin-bottom: unset;
+        }
+      }
+      .saveTimeHeading {
+        @include tab {
+          margin-bottom: 10px;
+        }
+        @include mo {
+          font-size: 18px;
+        }
+      }
+      .saveTimeDetailsTextMain {
+        @include tab {
+          max-width: 550px;
+        }
+      }
+      .saveTimeDetailsTextMain div {
+        @include md {
+          font-size: 14px;
+        }
+        @include tab {
+          font-size: 16px;
+        }
+        @include mo {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  //  save timea and money css end
+
+  // how it works page part start
+  .howitWorksPageContainer {
+    @include howitWorksPageContainer;
+  }
+  // how it works page part css end
+
+  //  employee says page part css start
+  .employeeSaysContainer {
+    width: 100%;
+    min-height: 720px;
+    background: $white;
+    @include mo {
+      min-height: 660px;
+    }
+    .employeeSaysMain {
+      background-image: url("../../../public/assets/images/employesSaysBackground.png");
+      background-size: contain;
+      min-height: 584px;
+      width: 100%;
+      .employeeSaysContent {
+        max-width: 975px;
+        padding-top: 120px;
+        @include mo {
+          padding-top: 60px;
+          max-width: 400px;
+        }
+        .employeeSaysHeading {
+          @include mo {
+            font-weight: 500;
+            font-size: 24px;
+          }
+        }
+        .testimonialImage {
+          width: 180px;
+          img {
+            @include mo {
+              width: 90px;
+              margin: 55px 10px 0px 0px;
+            }
+          }
+        }
+        .testimonialContent {
+          min-width: 745px;
+          min-height: 250px;
+          @include md {
+            min-width: 600px;
+            max-width: 620px;
+          }
+          @include tab {
+            min-width: 400px;
+            max-width: 400px;
+            min-height: 290px;
+            font-size: 16px;
+          }
+          @include mo {
+            min-width: 300px;
+            max-width: 320px;
+            margin-left: unset;
+          }
+          .sliderContent {
+            @include tab {
+              font-size: 16px;
+            }
+            @include mo {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .testimonialContent div {
+          @include mo {
+            font-size: 12px;
+          }
+        }
+      }
+      .viewTestimonials {
+        max-width: 80vw;
+        @include tab {
+          max-width: 90vw;
+        }
+      }
+    }
+  }
+
+  // employee says page part css end
+}

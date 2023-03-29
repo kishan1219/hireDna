@@ -1,0 +1,47 @@
+@import "../../../assets/scss/mixins.scss";
+.button {
+  color: $white;
+  border-radius: 3px;
+  font-size: $font-lg;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  &.xsm {
+    padding: 5px 15px 5px 10px;
+  }
+  &.xmd {
+    min-width: 169px;
+    min-height: 50px;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+  &.md {
+    min-width: 210px;
+    min-height: 50px;
+    padding: 15px 30px;
+    font-size: $font-sm;
+  }
+
+  &.solidPrimary {
+    color: $white;
+    background: transparent;
+    border: 1px solid $white;
+ 
+  }
+  &.redPrimary {
+    background: $secondary;
+    color: $white;
+    border: 1px solid $white;
+  }
+  &.bluePrimary {
+    background: transparent;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../../assets/scss/mixins.scss";
+.layoutMain {
+  background: $white;
+  width: 100%;
+  min-height: 100vh;
+  @include mo {
+    position: relative;
+    padding-top: 120px;
+  }
+  .headerMain {
+    @include mo {
+      position: absolute;
+      top: 0px;
+      z-index: 1;
+    }
+  }
+  .footer {
+    width: 100%;
+  }
+  // .mainContainer {
+
+  // }
+}

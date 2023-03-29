@@ -1,0 +1,73 @@
+@import "../../../assets/scss/variables.scss";
+i {
+  cursor: pointer;
+}
+.primary {
+  color: $primary;
+}
+
+.primary01 {
+  color: $primary01;
+}
+.primary02 {
+  color: $primary02;
+}
+.primary05 {
+  color: $primary05;
+}
+.yellow {
+  color: $yellow;
+}
+
+.secondary {
+  color: $secondary;
+}
+.tertiary {
+  color: $tertiary;
+}
+
+.black {
+  color: $black;
+}
+.black01 {
+  color: $black01;
+}
+
+.white {
+  color: $white;
+}
+.purple {
+  color: $purple;
+}
+.greenPrimary {
+  color: $greenPrimary;
+}
+
+.xxsIcon {
+  font-size: $font-xxs;
+}
+.smIcon {
+  font-size: $font-sm;
+}
+.lgIcon {
+  font-size: $font-lg;
+}
+.mlgIcon {
+  font-size: $font-mlg;
+}
+.xlIcon {
+  font-size: $font-xl;
+}
+.xxlIcon {
+  font-size: $font-xxl;
+}
+.xxxlIcon {
+  font-size: $font-xxxl;
+}
+.xllgIcon {
+  font-size: $font-xllg;
+}
+.bigIcon {
+  font-size: $font-big;
+}
+
